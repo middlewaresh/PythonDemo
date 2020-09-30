@@ -9,12 +9,12 @@
 <body>
     <div class="main-container">
         <div class="cloud-image">
-            <img src="{{ url_for('static', filename='img/successCloudNew.svg') }} " />
+            <img src="{{ url_for('static', filename='img/successCloudNew.svg') }} " alt="{{error messege}}" />
         </div>
         <div class="content">
             <div class="tweet-container">
             <a href="http://twitter.com/intent/tweet/?text=I%20just%20created%20a%20new%20Python%20Flask%20application%20on%20middleware.sh&amp;hashtags=devops%20%40middleware_sh">
-                <img src="{{ url_for('static', filename='img/tweetThis.svg') }}" />
+                <img src="{{ url_for('static', filename='img/tweetThis.svg') }}" alt="{{error messege}}" />
             </a>            
         </div>
             <div class="content-body">
@@ -26,16 +26,16 @@
                     <div class="next-steps-body">
                         <div class="step">
                             <div class="step-icon">
-                                <img src="{{ url_for('static', filename='img/cloneWhite.svg') }} " />
+                                <img src="{{ url_for('static', filename='img/cloneWhite.svg') }} " alt="{{error messege}}" />
                             </div>
-                            <div class="step-text"><a href="https://github.com/middlewaresh/PythonDemo">Clone sample code repository and start developing your application</a></div>
+                            <div class="step-text"><a href="https://github.com/middlewaresh/PythonDemo" target="_blank">Clone sample code repository and start developing your application</a></div>
                         </div>
 
                         <div class="step">
                             <div class="step-icon">
-                                <img src="{{ url_for('static', filename='img/stackWhite.svg') }}" />
+                                <img src="{{ url_for('static', filename='img/stackWhite.svg') }}" alt="{{error messege}}" />
                             </div>
-                            <div class="step-text"><a href="https://middleware.sh/dashboard">View your application dashboard on middleware.sh</a></div>
+                            <div class="step-text"><a href="https://middleware.sh/dashboard" target="_blank">View your application dashboard on middleware.sh</a></div>
                         </div>
                     </div>
                 </div>
